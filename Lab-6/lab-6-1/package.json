@@ -1,0 +1,19 @@
+{
+  "name": "cs-554-lab6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "\"Shivani Patole 10442077\"",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.4.8",
+    "axios": "^0.18.0",
+    "graphql": "^14.2.1",
+    "lodash": "^4.17.11",
+    "node-uuid": "^1.4.8"
+  }
+}

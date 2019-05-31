@@ -1,0 +1,36 @@
+@import "variables";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+
+.card-img-top{
+    width : $image-width;
+    height : $image-height;
+}
+
+.card{
+  min-height: $card-height;
+  margin-bottom: $card-margin-bottom;  
+}
+
+body{
+  background-color: $body-background !important;
+}
+a{
+  color: $anchor-color !important;
+}
+a:hover{
+  color: $anchor-hovercolor !important;
+}
+
+button{
+  background-color: $button-color !important;
+}
+
+.modal-title{
+  font-family: $modal-title-font !important;
+  font-size: 2rem;
+}
+
+.card-title{
+  font-size:1rem !important;
+}
